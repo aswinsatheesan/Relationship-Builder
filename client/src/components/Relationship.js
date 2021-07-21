@@ -83,7 +83,7 @@ const ListRelations = () => {
           });
           if(flag==false){
             const body = {person1 : fperson,person2 : sperson,tag : tag};
-            await fetch("http://localhost:5000/relations",{
+            await fetch("/relations",{
                 method: "POST",
                 headers: { "Content-Type" : "application/json"},
                 body: JSON.stringify(body),
