@@ -1,42 +1,42 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.text{
-  color:black;
-  -webkit-transition : color 5s; /* For Safari 3.0 to 6.0 */
-  transition: color .5s;
+.text {
+  color: black;
+  -webkit-transition: color 5s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.5s;
 }
-.text:hover{
-  color:dodgerblue;
+.text:hover {
+  color: dodgerblue;
 }
-.center{
-  margin:auto;
-  width:70%;
-  font-family: 'Crete Round', serif;
+.center {
+  margin: auto;
+  width: 70%;
+  font-family: "Crete Round", serif;
 }
-.tablebody{
+.tablebody {
   max-height: 150px;
   overflow: auto;
   margin-top: 50px;
 }
-.tableheading{
-  position:sticky;
-  top:0;
-  background-color:#ffffff;
+.tableheading {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
   padding-bottom: 20px;
 }
-.iperror{
+.iperror {
   border-color: red;
   box-shadow: 0 0 10px rgb(255, 0, 0);
 }

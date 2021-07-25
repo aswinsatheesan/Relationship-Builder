@@ -1,7 +1,6 @@
 const Pool = require("pg").Pool;
 require("dotenv").config();
 
-
 const devConfig = {
   user: process.env.PG_USER,
   password: process.env.PG_PASSWORD,
@@ -17,9 +16,9 @@ const devConfig = {
 const proConfig = {
   connectionString: process.env.DATABASE_URL,
   ssl: {
-    rejectUnauthorized: false
-  }
-}
+    rejectUnauthorized: false,
+  },
+};
 
 const pool = new Pool(
   process.env.NODE_ENV === "production" ? proConfig : devConfig
